@@ -1,0 +1,33 @@
+/** @format */
+.app {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #4d4d4d;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4684f090;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4684f080;
+  border-radius: 5px;
+}

@@ -1,0 +1,17 @@
+/** @format */
+
+.jumbotronRight_container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	/* border: 1px solid blue; */
+}
+
+.jumbotronRight_tabItems {
+	display: flex;
+	flex-direction: row;
+	margin-top: 0;
+
+	/* width: 100%; */
+}

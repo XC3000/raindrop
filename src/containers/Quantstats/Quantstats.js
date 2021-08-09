@@ -1,0 +1,77 @@
+/** @format */
+
+import { Typography } from "@material-ui/core";
+import { Grid, makeStyles } from "@material-ui/core";
+import React from "react";
+import QuantstatsDark from "./QuantstatsDark.svg";
+import Quantstat from "./Quantstat.png";
+
+const useStyles = makeStyles((theme) => ({
+  container: {
+    height: "90vh",
+    // display: "grid",
+    marginTop: "-80px",
+
+    // placeItems: "center",
+    // border: "1px solid red",
+  },
+}));
+
+export default function Quantstats() {
+  const classes = useStyles();
+  return (
+    <div>
+      <Grid
+        container
+        direction="row"
+        justify="center"
+        alignItems="center"
+        className={classes.container}
+      >
+        <Grid
+          container
+          direction="column"
+          justify="center"
+          alignItems="flex-start"
+          spacing={2}
+          style={{ flex: ".3" }}
+        >
+          <Grid item>
+            <Typography variant="h3">QuantStats</Typography>
+          </Grid>
+          <Grid item>
+            <Typography variant="body1">
+              Real-time analytics and one- click actionable insights derived
+              from millions of data points tracked by RAIN.
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography
+              color="primary"
+              style={{
+                fontSize: "26px",
+                fontFamily: "Roboto, Helvetica, Arial, sans-serif",
+                fontWeight: "600",
+              }}
+            >
+              Coming Soon!
+            </Typography>
+          </Grid>
+        </Grid>
+        <Grid container style={{ flex: ".5" }}>
+          <img
+            src={Quantstat}
+            alt="quantstats"
+            style={{
+              padding: "30px 30px 30px 0px",
+              position: "relative",
+              top: "40px",
+              height: "500px",
+              width: "700px",
+            }}
+          />
+        </Grid>
+      </Grid>
+    </div>
+  );
+}

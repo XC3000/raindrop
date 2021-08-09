@@ -1,0 +1,55 @@
+/** @format */
+
+.registerMsg__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #282c31;
+	min-height: 400px;
+	min-height: 400px;
+	min-width: 450px;
+	max-width: 450px;
+	border-radius: 13px;
+	padding: 50px 55px;
+	box-sizing: border-box;
+	box-shadow: 15px 10px 0px #4684f0;
+
+	color: #cacaca;
+}
+
+.registerMsg__container > p {
+	text-align: center;
+	line-height: 25px;
+}
+
+.para_1 {
+	color: #4684f0;
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+
+.para_2 {
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.para_3 {
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.para_4 {
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+.para_5 {
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+.register_msg__link {
+	margin-left: 5px;
+	color: #4684f0;
+	cursor: pointer;
+}

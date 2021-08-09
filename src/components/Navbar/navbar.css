@@ -1,0 +1,28 @@
+/** @format */
+
+.navbar_icon {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.navbar_icon_tite {
+	margin-left: 10px;
+	font-size: 24px;
+}
+
+.navbar_items {
+	display: flex;
+	flex-direction: row;
+
+	/* margin-right: 15px; */
+}
+
+.navbar_theme_icon_container {
+	cursor: pointer;
+}
+
+.logout_button {
+	text-decoration: inherit;
+	font-size: 24px;
+}

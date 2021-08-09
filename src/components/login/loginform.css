@@ -1,0 +1,137 @@
+/** @format */
+
+.formBody {
+	display: flex;
+	flex-direction: column;
+	/* margin-top: -50px; */
+	background-color: #282c31;
+	min-height: 443px;
+	width: 450px;
+	border-radius: 13px;
+	padding: 40px 55px;
+	box-sizing: border-box;
+	box-shadow: 15px 10px 0px #4684f0;
+}
+
+.toogle__button {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	color: white;
+}
+
+.toogle__button > .MuiSwitch-root > .MuiSwitch-switchBase {
+	color: #4684f0;
+}
+
+.toogle__button > .MuiSwitch-root > .Mui-checked {
+	color: #4684f0;
+}
+
+.individuals {
+	color: #4684f0;
+}
+
+.input__container {
+	display: flex;
+	flex-direction: column;
+}
+
+.login--text {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	color: #4684f0;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.form--inputs {
+	width: 100%;
+	/* border: 1px solid red; */
+	margin: 5px 0;
+}
+.form--inputs > label {
+	color: white;
+	font-size: 12px;
+}
+
+.form--inputs > input {
+	width: 100%;
+	height: 32px;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.form--inputs > input:focus {
+	outline: none;
+	border: 3px solid #4684f0;
+}
+
+.forget-password {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	color: #979797;
+	font-size: 14px;
+}
+
+.login__button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.login__button > button {
+	margin-top: 20px;
+	width: 170px;
+	height: 36px;
+	background-color: #4684f0;
+	color: white;
+	border: none;
+	border-radius: 4px;
+}
+
+.login__button > button:hover {
+	background-color: #4684f0;
+}
+
+.formBody__footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0;
+	color: white;
+	font-size: 14px;
+}
+
+.register-now {
+	margin-left: 4px;
+	color: #4684f0;
+}
+
+/* error */
+.login_error {
+	position: relative;
+	min-height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffaa8730;
+	color: #ff5238;
+}
+
+.login_error_waringIcon {
+	margin: 0 4px;
+}
+
+.login_error_text {
+	margin-top: -5px;
+}
